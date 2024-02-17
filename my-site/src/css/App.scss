@@ -13,7 +13,7 @@ header{
     align-items: center;
     background-color: $backcolor;
     color: $string_color;
-    position: fixed;
+    // position: fixed;
     width: 100%;
     z-index: 10;
 
@@ -36,4 +36,9 @@ header{
         }
     }
 
+}
+
+.home img{
+    width: 100%;
+    height: 100%;
 }
