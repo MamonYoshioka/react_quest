@@ -1,8 +1,8 @@
+$darkColor: #000000;
+
 .container{
-    .header{
-        color:red;
-    }
+    background: $darkColor;
     .content{
-        color:green;
+        color: $darkColor 
     }
 }
