@@ -1,0 +1,39 @@
+$backcolor:#5a9ac6;
+$string_color:#fffff4;
+
+.App {
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $backcolor;
+    color: $string_color;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    .logo h3{
+        font-size:  30px;
+    }
+
+    nav li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 36px;
+
+        a {
+            text-decoration: none;
+            color: $string_color;
+            transition: all 0,3s;
+            &:hover {
+                color:#f46952;
+            }
+        }
+    }
+
+}
