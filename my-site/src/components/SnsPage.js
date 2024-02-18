@@ -3,7 +3,7 @@ import bgImage from "..//images/sns.jpg"
 
 function SnsPage() {
   return (
-    <div className='home'>
+    <div className="container home">
       <img src={bgImage} />
     </div>
   )
