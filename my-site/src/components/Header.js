@@ -11,7 +11,7 @@ const Header = () => {
         <nav>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">ホーム</Link>
                 </li>
                 <li>
                     <Link to="/sns">SNS</Link>
