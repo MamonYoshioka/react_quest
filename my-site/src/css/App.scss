@@ -42,3 +42,16 @@ header{
     width: 100%;
     height: 100%;
 }
+
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+  }
+  section.resume-section .resume-section-content {
+    width: 100%;
+  }

@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <div className='home'>
         <img src={bgImage} />
-        <section>
+        <section class="resume-section" id="about">
             <div class="resume-section-content">
                         <h1 class="mb-0">
                             Clarence
