@@ -4,7 +4,7 @@ import bgImage from "..//images/comming_soon.jpg"
 function HomePage() {
   return (
     <div className='home'>
-        {/* <img src={bgImage} /> */}
+        <img src={bgImage} />
         <section>
             <div class="resume-section-content">
                         <h1 class="mb-0">
